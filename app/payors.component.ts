@@ -17,5 +17,10 @@ export class PayorsComponent implements OnInit {
 
     ngOnInit() { }
 
-
+    onPayorAdded(value){
+        console.log("event fired"+value);
+        this.payors.push(value);
+        
+        
+    }
 }

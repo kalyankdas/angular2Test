@@ -1,10 +1,12 @@
 
 <div class="row">
-    <h1>THis is test2</h1>
+   
     <div class="panel panel-default">
         <div class="panel-body">
-           Basic panel example
+           <ul *ngFor="let item of payors">
+               <li>{{item.name}}</li>
+           </ul> 
+           
         </div>
     </div>
-    
-</div>
+    </div>
